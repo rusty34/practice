@@ -1,6 +1,23 @@
+#include <string.h>
+#include <iostream>
 
+int reverseString(char* string, int size);
 
-int reverse(char* string, int size)
+int main(int argc, char** argv)
+{
+
+	char string[] = "asdf";
+	int length = strlen(string);
+
+	std::cout << "Original String: " << string << "\n";
+	reverseString(string, length);
+	std::cout << "Reversed String: " << string << "\n";
+
+	return 1;
+
+}
+
+int reverseString(char* string, int size)
 {
 
 	//Swap around string
@@ -8,7 +25,7 @@ int reverse(char* string, int size)
 	//to
 	//"fdsa"
 
-	if(size>0) {
+	if(size == 0) {
 		return 0;
 	}
 	else if(size == 1) {

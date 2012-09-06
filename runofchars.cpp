@@ -16,7 +16,8 @@ int main(int argc, char** argv)
 	return 0;
 }
 
-
+//Find the longest run of the same char
+//Return the number of times the char appears and set character to the char
 int ContChars(const char* str, char* character)
 {
 	//str = "aabcccdd"
