@@ -13,7 +13,7 @@ int main(int argc, char** argv)
 
 	std::cout << "Longest Palindrome Length : " << testLength << "\n";
 
-	return 1;
+	return 0;
 }
 
 int longestPalindrome(char* str, int length)

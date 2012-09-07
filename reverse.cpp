@@ -13,7 +13,7 @@ int main(int argc, char** argv)
 	reverseString(string, length);
 	std::cout << "Reversed String: " << string << "\n";
 
-	return 1;
+	return 0;
 
 }
 
